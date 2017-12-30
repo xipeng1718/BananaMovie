@@ -16,7 +16,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-2 logo align-items-center">
-                            <img src="imgs/logo.png" alt="">
+                            <a href="/"><img src="imgs/logo.png" alt=""></a>
                         </div>
                         <div class="col"></div>
                         <div class="col-3">
@@ -40,23 +40,23 @@
                 </div>
             </div>
         </div>
-        <div class="row align-items-center">
+        <div class="row">
             <div class="col-12">
                 <div class="container px-0">
                     <div class="row">
                         <div class="col-12">
-                            <ul class="nav justify-content-between">
+                            <ul class="nav justify-content-around">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">首頁</a>
+                                    <a class="nav-link px-5" href="#">首頁</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">電影介紹</a>
+                                    <a class="nav-link px-5" href="#">電影介紹</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">場次查詢</a>
+                                    <a class="nav-link px-5" href="#">場次查詢</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">影城資訊</a>
+                                    <a class="nav-link px-5" href="#">影城資訊</a>
                                 </li>
                             </ul>
                         </div>

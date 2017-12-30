@@ -9,10 +9,14 @@ header .row:first-child .col-12 {
 header .row:last-child .col-12 {
 	background-color: #e2dbbe;
 	height: 60px;
+	font-weight: bold;
 }
-header .row:last-child .col-12 a {
+header .row:last-child .col-12 a{
 	color: black;
-	font-size: 28px;
+	font-size: 24px;
+}
+header .row:last-child .col-12 a:hover{
+	color: #188fa7;
 }
 .logo {
 	padding-top: 20px;
@@ -63,20 +67,74 @@ header .row:last-child .col-12 a {
 .carousel-item img {
 	width: 100%;
 }
-.custom-navbar {
-	background-color: #e2dbbe;
-	height: 60px;
+.now-release {
+	padding: 45px 0px;
 }
-.custom-navbar a {
-	color: black;
+.now-release > div > img {
+	width: 280px;
+	height: 400px;
+}
+.titlebar {
 	font-size: 28px;
-	padding: 0px 30px;
-	vertical-align: middle;
+}
+.titlebar hr {
+	padding-bottom: 43px;
+}
+.movie-title a {
+	color: #000;
+	text-decoration: none;
+}
+.movie-title a:hover {
+	color: #188fa7;
+}
+.now-release .media {
+	padding-top: 32px;
+}
+.now-release .media img {
+	width: 110px;
+}
+.now-release .media-body {
+	padding-left: 20px;
+	font-size: 24px;
+}
+.future-release {
+	font-size: 20px;
+}
+.future-release img {
+	width: 280px;
+	height: 400px;
+}
+.future-release .movie-title {
+	padding-top: 18px;
+}
+.motd table {
+	width: 600px;
+	font-size: 18px;
+}
+.motd tr {
+	cursor: pointer;
+}
+.motd tr:hover {
+	color: #188fa7;
+}
+.motd tr:not(:last-child) {
+	border-bottom: 1px solid black;
+}
+.motd td {
+	padding: 8px 0px;
+}
+.motd tr:first-child td{
+	padding-top: 0px;
+}
+.motd td:first-child {
+	padding-right: 27px;
+	text-align: center;
 }
 footer .row {
 	background-color: #e9eb87;
 	height: 180px;
-	font-size: 24px;
+	font-size: 1rem;
+	margin-top: 26px;
 }
 footer a {
 	color: black;
