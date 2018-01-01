@@ -1,7 +1,12 @@
 <!-- https://coolors.co/e9eb87-e2dbbe-9dbbae-769fb6-188fa7
 https://coolors.co/e9eb87-241623-f05d5e-0f7173-d56f3e
 https://coolors.co/e9eb87-e2dbbe-7fb7be-d3f3ee-241623-->
-<?php require_once('layouts/header.php'); ?>
+<?php
+require_once(__DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'environment.php');
+require_once(__DIR__ . '/../autoload.php');
+require_once(__DIR__ . '/../layouts/header.php');
+use \Data\DatabaseFactory;
+$db = new DatabaseFactory();?>
 <div class="container">
     <div class="row">
         <div class="col">
@@ -153,4 +158,4 @@ https://coolors.co/e9eb87-e2dbbe-7fb7be-d3f3ee-241623-->
         </div>
     </div>
 </div>
-<?php require_once('layouts/footer.php'); ?>
+<?php require_once(__DIR__ . '/../layouts/footer.php'); ?>

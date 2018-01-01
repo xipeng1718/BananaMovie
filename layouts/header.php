@@ -47,16 +47,16 @@
                         <div class="col-12">
                             <ul class="nav justify-content-around">
                                 <li class="nav-item">
-                                    <a class="nav-link px-5" href="#">首頁</a>
+                                    <a class="nav-link px-5" href="/index.php">首頁</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link px-5" href="#">電影介紹</a>
+                                    <a class="nav-link px-5" href="/movie_intro.php">電影介紹</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link px-5" href="#">場次查詢</a>
+                                    <a class="nav-link px-5" href="/showtime.php">場次查詢</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link px-5" href="#">影城資訊</a>
+                                    <a class="nav-link px-5" href="/about_us.php">影城資訊</a>
                                 </li>
                             </ul>
                         </div>
