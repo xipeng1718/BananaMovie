@@ -5,8 +5,8 @@ https://coolors.co/e9eb87-e2dbbe-7fb7be-d3f3ee-241623-->
 require_once(__DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'environment.php');
 require_once(__DIR__ . '/../autoload.php');
 require_once(__DIR__ . '/../views/layouts/header.view.php');
-use \Data\DatabaseFactory;
-$db = new DatabaseFactory();
+use \Data\User;
+$user = new User();
+echo $user->getName();
 require_once(__DIR__ . '/../views/index.view.php');
-
 require_once(__DIR__ . '/../views/layouts/footer.view.php');

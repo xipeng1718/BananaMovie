@@ -32,7 +32,7 @@
 								</a>
                             </div>
                             <div class="row">
-                                <button type="button" class="btn btn-top">登入</button>
+                                <button type="button" class="btn btn-top" data-toggle="modal" data-target="#login-popup-box">登入</button>
                                 <button type="button" class="btn btn-top">註冊</button>
                             </div>
                         </div>
