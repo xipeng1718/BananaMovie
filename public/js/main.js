@@ -19,7 +19,7 @@ function post_to_url(path, params, method) {
     document.body.appendChild(form);    // Not entirely sure if this is necessary
     form.submit();
 }
-$('#login-popup-box button').click(function(event){
+$('#login-popup-box .modal-body button').click(function(event){
     post_to_url('./login.php', 
         {
             'account' : $('input[name="account"]').val(), 
